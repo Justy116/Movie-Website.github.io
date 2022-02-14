@@ -27,6 +27,10 @@ btn.addEventListener("click", function () {
     
 })
 
+let reloadPage = document.getElementById("reload")
+reloadPage.addEventListener("click", function(){
+    window.location.reload(true);
+});
 
 
 
