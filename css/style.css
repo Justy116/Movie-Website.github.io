@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
-    background-color: #fff460;
+    background: linear-gradient(90deg, rgba(178,36,239,1) 0%, rgba(118,230,254,0.958420868347339) 100%);
     font-family: "Oswald", sans-serif;
 }
 
@@ -28,8 +28,8 @@ body {
     border-radius: 8px;
     padding: 5px 5px 5px 5px;
     color: #fff;
-    background-color: #fff12a;
     border: 1px solid white;
+    background: linear-gradient(0deg, rgba(118,230,254,1) 0%, rgba(125,209,252,1) 0%, rgba(125,245,252,1) 86%);
     font-size: 20px;
     margin: 0 10px 0 10px;
 }
@@ -37,8 +37,8 @@ body {
 #reload{
     border-radius: 8px;
     padding: 5px 5px 5px 5px;
+    background: linear-gradient(0deg, rgba(118,230,254,1) 0%, rgba(125,209,252,1) 0%, rgba(125,245,252,1) 86%);
     color: #fff;
-    background-color: #fff12a;
     border: 1px solid white;
     font-size: 20px;
 }
@@ -62,7 +62,7 @@ li {
     padding: 15px;
     border-radius: 12px;
     text-align: center;
-    background-color: #fff786;
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.493) 0%, rgba(148, 188, 233, 0.377) 100%);
 }
 
 img {

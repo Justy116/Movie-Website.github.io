@@ -13,12 +13,12 @@ btn.addEventListener("click", function () {
             })
             .then(data => {
                 const list = data.d;
-
+                
                 list.map((item) => {
                     const name = item.l;
                     const img = item.i.imageUrl;
-                    const movie = `<li><img src="${img}"><h2>${name}</h2></li>`
-                    document.getElementById("movies").innerHTML += movie;
+                    const movie = `<li><img src="${img}"><h2>${name}</h2></li>`;
+                        document.getElementById("movies").innerHTML += movie;  
                 })
             })
             .catch(err => {
